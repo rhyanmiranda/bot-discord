@@ -35,7 +35,7 @@ async function checkNewVideos() {
   try {
     // vai retornar o video mais recente
     const response = await youtubeClient.search.list({
-      channelId: 'UCpKvMmsF6QrkVr_zWaLGK-A', 
+      channelId: 'UCKxn56z2qU-LJi3KRgMiaUg', 
       order: 'date', // ordenado
       part: 'snippet',
       type: 'video', // somente videos
